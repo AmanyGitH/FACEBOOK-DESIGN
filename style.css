@@ -1069,21 +1069,6 @@ nav{
     .container .center .my-post .post-top input {
      font-size: 11px;
     }
-    .reactions.active {
-        position: absolute;
-        flex-wrap: wrap;
-        flex-direction: row;
-        border-radius: 10px;
-        width: 85vh;
-        padding: 15px 58px;
-        top: -210px;
-        left: -30px;
-    }
-.reaction img {
-    width: 50px;
-    height: 50px;
-    margin: 5px 0;
-}
 }
 @media (max-width:450px) {
     nav .right img{
@@ -1162,7 +1147,20 @@ nav{
     .container .center{
         padding: 20px 0 0 0;
         }
-    
+     .reactions.active {
+        position: absolute;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border-radius: 10px;
+        width: 75vh;
+        padding: 15px 58px;
+        top: -210px;
+        left: -45px;
+    }
+.reaction img {
+    width: 25px;
+    height: 35px;
+}
       
 }
 

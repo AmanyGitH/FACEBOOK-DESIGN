@@ -1147,19 +1147,20 @@ nav{
     .container .center{
         padding: 20px 0 0 0;
         }
-     .reactions.active {
-        position: absolute;
+    .reactions.active {
         flex-wrap: wrap;
-        flex-direction: row;
         border-radius: 10px;
-        width: 75vh;
-        padding: 15px 58px;
-        top: -210px;
-        left: -45px;
+        width: 77vh;
+        padding: 20px;
+        left: -30px;
+        top: -400px;
+        position: absolute;
+        top: -180px;
+       flex: 1fr 1fr 1fr;
     }
 .reaction img {
-    width: 25px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 }
       
 }
